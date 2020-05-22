@@ -1,8 +1,10 @@
 require "yaml"
 require "pry"
 
-def load_library(file)
-  emoticons_file = YAML.load_file(file)
+def load_library(file_path)
+  emoticons_file = YAML.load_file(file_path)
+  emoticons_file.each do |key|
+    :key=>{}
 end
 
 def get_japanese_emoticon
