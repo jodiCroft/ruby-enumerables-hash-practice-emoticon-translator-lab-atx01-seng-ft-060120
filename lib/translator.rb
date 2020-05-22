@@ -11,11 +11,9 @@ def load_library(file_path)
 end
 
 
-#def get_english_meaning(file_path, emoticon)
-#  emoticon_file = load_library(file_path)
-#  emoticon_file.each do |emotion_name, keys_and_emoticons|
-
-#end
+def get_english_meaning(file_path, emoticon)
+  emoticon_file = load_library(file_path)
+end
 
 
 
