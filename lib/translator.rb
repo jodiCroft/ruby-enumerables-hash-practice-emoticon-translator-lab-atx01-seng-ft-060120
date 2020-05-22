@@ -7,7 +7,6 @@ def load_library(file)
     main_keys.each do |main_key|
       binding.pry
       if !final_hash[main_key]
-        final_hash[:main_key]=>{}
       end
       binding.pry
 end
