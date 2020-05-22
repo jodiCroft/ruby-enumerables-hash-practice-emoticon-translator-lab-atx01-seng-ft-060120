@@ -1,6 +1,8 @@
 # require modules here
 
-def load_library
+def load_library(lib/emoticons.yml)
+  lib/emoticons.yml.each_with_object({})
+
   # code goes here
 end
 
