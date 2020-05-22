@@ -12,7 +12,9 @@ end
 
 
 def get_japanese_emoticon(file_path, emoticon)
-  name_of_emoticon = load_library(file_path)
+  version_of_emoticon = load_library(file_path)
+  version_of_emoticon.each do |keys, values|
+  end
   binding.pry
 end
 
