@@ -14,7 +14,6 @@ def load_library(file_path)
       if !final_hash[keys][:japanese]
         final_hash[keys][:japanese] = japanese_emoticon
       end
-        binding.pry
     end
   end
 end
