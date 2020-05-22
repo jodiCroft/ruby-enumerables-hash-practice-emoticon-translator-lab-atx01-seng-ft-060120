@@ -1,4 +1,5 @@
 require "yaml"
+require "pry"
 
 def load_library
   YAML.load(File.read("emoticons.yml"))
