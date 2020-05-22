@@ -5,7 +5,7 @@ def load_library(file_path)
   emoticons = YAML.load_file(file_path)
   emoticons.each_with_object({}) do |(keys, values), final_hash|
     if !final_hash[keys]
-      final_hash[keys] = {:english=>values[0], :japanese=>[1]}
+      final_hash[keys] = {:english=>values[0], :japanese=>values[1]}
     end
     binding.pry
     values.each do |english_emoticon, japanese_emoticon|
