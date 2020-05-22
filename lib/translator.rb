@@ -12,7 +12,7 @@ def load_library(file_path)
         final_hash[keys][:english] = english_emoticon
       end
       if !final_hash[keys][:english][:japanese]
-        final_hash[key][:english][:japanese] = japanese_emoticon
+        final_hash[keys][:english][:japanese] = japanese_emoticon
         binding.pry
       end
     end
