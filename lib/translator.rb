@@ -6,8 +6,8 @@ def load_library(file_path)
   emoticons.each_with_object({}) do |(keys, values), final_hash|
     if !final_hash[keys]
       final_hash[keys] = {}
+      binding.pry
     end
-    binding.pry
     values.each do |english_emoticon, japanese_emoticon|
       if !final_hash[keys][:english]
         final_hash[keys][:english] = english_emoticon
