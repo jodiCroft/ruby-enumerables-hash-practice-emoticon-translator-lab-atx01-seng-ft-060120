@@ -1,8 +1,7 @@
-# require modules here
-require"pry"
+require "yaml"
 
-def load_library(emoticons.yml)
-  emoticons.yml.each_with_object({})
+def load_library
+  YAML.load(File.read("emoticons.yml"))
 binding.pry
   # code goes here
 end
