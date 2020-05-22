@@ -7,15 +7,6 @@ def load_library(file_path)
     if !final_hash[keys]
       final_hash[keys] = {:english=>values[0], :japanese=>values[1]}
     end
-    binding.pry
-    values.each do |english_emoticon, japanese_emoticon|
-      if !final_hash[keys][:english]
-        final_hash[keys][:english] = english_emoticon
-      end
-      if !final_hash[keys][:japanese]
-        final_hash[keys][:japanese] = japanese_emoticon
-      end
-    end
   end
 end
 
