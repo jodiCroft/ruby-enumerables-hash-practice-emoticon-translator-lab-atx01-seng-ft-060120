@@ -14,15 +14,7 @@ end
 def get_english_meaning(file_path, emoticon)
   emoticon_file = load_library(file_path)
   emoticon_file.each do |emotion_name, keys_and_emoticons|
-    keys_and_emoticons.each do |english_japanese, string_of_emoticons|
-      english_japanese.each do |english, japanese|
-        if japanese[string_of_emoticons] == emoticon
-          puts emotion_name
-        else puts "Sorry, that emoticon does not exist"
-      end
-    end
-  end
-end
+  
 end
 
 
