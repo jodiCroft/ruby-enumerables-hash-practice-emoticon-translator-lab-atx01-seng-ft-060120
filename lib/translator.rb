@@ -8,7 +8,6 @@ def load_library(file_path)
       final_hash[keys] = {:english=>values[0], :japanese=>values[1]}
     end
   end
-  binding.pry
 end
 
 
