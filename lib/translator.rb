@@ -7,11 +7,11 @@ def load_library(file_path)
     if !final_hash[keys]
       final_hash[keys] = {}
     end
-    binding.pry
     values.each do |english_emoticon, japanese_emoticon|
       if !final_hash[keys][:english]
         final_hash[keys][:english] = english_emoticon
       end
+        binding.pry
       if !final_hash[keys][:japanese]
         final_hash[key][:japanese] = japanese_emoticon
       end
