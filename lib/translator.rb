@@ -4,8 +4,10 @@ require "pry"
 def load_library(file)
   emoticons_file = YAML.load_file(file)
   emoticons_file.each_with_object({}) do |(main_keys, values), final_hash|
-
     main_keys.each do |main_key|
+      if !final_hash[main_key]
+        final_hash[main_key]=>{}
+      end
 end
 end
 end
