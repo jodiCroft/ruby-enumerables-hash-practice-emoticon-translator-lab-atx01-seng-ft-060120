@@ -16,7 +16,7 @@ def get_japanese_emoticon(file_path, emoticon)
   version_of_emoticon.each do |keys, values|
     values.each do |inner_keys, emoticons|
         if emoticon == emoticons
-          emoticons[0]
+          version_of_emoticon = emoticons[0]
         end
       end
   end
