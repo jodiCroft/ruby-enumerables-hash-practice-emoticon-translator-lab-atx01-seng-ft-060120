@@ -8,11 +8,11 @@ def load_library(file)
       binding.pry
       if !final_hash[main_key]
       end
-      binding.pry
+      #binding.pry
 end
 end
 end
-binding.pry
+#binding.pry
 def get_japanese_emoticon
   # code goes here
 end
