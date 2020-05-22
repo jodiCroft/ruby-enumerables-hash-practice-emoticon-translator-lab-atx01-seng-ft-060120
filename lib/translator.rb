@@ -18,7 +18,6 @@ def get_japanese_emoticon(file_path, emoticon)
         if emoticon == emoticons
           emoticons[0]
         end
-          binding.pry
       end
   end
 end
