@@ -18,7 +18,7 @@ def get_english_meaning(file_path, emoticon)
       return emotion_name
   end
 end
-return "Sorry, that emoticon does not exist"
+return "Sorry, that emoticon was not found"
 end
 
 
