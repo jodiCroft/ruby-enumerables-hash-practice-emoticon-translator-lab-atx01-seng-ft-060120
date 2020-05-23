@@ -18,7 +18,6 @@ def get_english_meaning(file_path, emoticon)
       return emotion_name
     else puts "Sorry, that emoticon does not exist"
   end
-  binding.pry
 end
 end
 
